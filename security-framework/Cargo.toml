@@ -46,6 +46,9 @@ name = "find_internet_password"
 [[example]]
 name = "set_internet_password"
 
+[[example]]
+name = "secure_enclave"
+
 [package.metadata.docs.rs]
 targets = ["x86_64-apple-darwin", "aarch64-apple-ios"]
 

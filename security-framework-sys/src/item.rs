@@ -20,6 +20,8 @@ extern "C" {
     pub static kSecMatchSearchList: CFStringRef;
 
     pub static kSecAttrKeyType: CFStringRef;
+    pub static kSecAttrTokenID: CFStringRef;
+    pub static kSecAttrTokenIDSecureEnclave: CFStringRef;
     pub static kSecAttrLabel: CFStringRef;
 
     pub static kSecAttrKeySizeInBits: CFStringRef;

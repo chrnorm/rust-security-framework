@@ -15,7 +15,7 @@ extern "C" {
         error: *mut CFErrorRef,
     ) -> SecKeyRef;
 
-    #[cfg(any(feature = "OSX_10_12", target_os = "ios"))]
+    #[cfg(any(feature = "OSX_10_12", target_os = "ios", target_os = "macos"))]
     pub fn SecKeyCreateRandomKey(parameters: CFDictionaryRef, error: *mut CFErrorRef) -> SecKeyRef;
 
     #[cfg(any(feature = "OSX_10_12", target_os = "ios"))]
